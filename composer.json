@@ -1,0 +1,29 @@
+{
+    "name": "shockedplot7560/fixer-custom-rules",
+    "description": "Custom rules for php-cs-fixer",
+    "type": "library",
+    "license": "LGPL-3.0",
+    "autoload": {
+        "psr-4": {
+            "Shockedplot7560\\FixerCustomRules\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Shockedplot7560\\FixerCustomRules\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "ShockedPlot7560",
+            "email": "no-reply@tchallon.fr"
+        }
+    ],
+    "require": {
+        "php": "^8.0",
+        "friendsofphp/php-cs-fixer": "^3.17"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.2"
+    }
+}
